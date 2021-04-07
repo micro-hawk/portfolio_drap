@@ -27,6 +27,7 @@ a{
     position: relative;
     z-index: 1;
 }
+
 #hero::after{
     content: '';
     background-color: black;
@@ -48,6 +49,19 @@ a{
     position: relative;
     font-size: 4rem;
 }
+
+#hero h1 span {
+    position: absolute;
+    background-color: crimson;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    animation: text_reveal_box 1.3s ease;
+    animation-delay: 0.8s;
+}
+
+
 #hero .cta {
     display: inline-block;
     padding: 10px 30px;
@@ -58,8 +72,30 @@ a{
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin-top: 30px ;
-    transition: .3s ease background-color;
+    transition: .3s ease;
+    transition-property: background-color color;
 }
-#hero .cta::hover::after{
-    background-color: darkblue;
+#hero .cta:hover{
+    color: white;
+    background-color: crimson;
 }
+
+
+#hero .userName {
+    color: crimson;
+}
+
+
+/* Keyframe */
+@keyframes text_reveal_box {
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+
+/* END Keyframe */
