@@ -1,2 +1,2 @@
-# portfolio_drap
-Ready with new portfolio for github :/
+# Personal Portfolio
+Image is processing please wait ⌛
