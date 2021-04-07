@@ -162,6 +162,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 #services .service-bottom .service-item {
     display: flex;
