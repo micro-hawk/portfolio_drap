@@ -41,6 +41,13 @@ a{
     z-index: -1;
 }
 
+#hero .hero {
+    max-width: 1200px;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
 #hero h1
 {
     display: block;
@@ -49,17 +56,17 @@ a{
     position: relative;
     font-size: 4rem;
     animation: text_reveal .5s ease forwards;
-    animation-delay: 1.5s;
+    animation-delay: 1s;
 }
 
 #hero h1:nth-child(1){
-    animation-delay: 1.5s;
+    animation-delay: 1s;
 }
 #hero h1:nth-child(2){
-    animation-delay: 2.5s;
+    animation-delay: 2s;
 }
 #hero h1:nth-child(3){
-    animation-delay: 3.5s;
+    animation-delay: 3s;
 }
 
 #hero h1 span {
@@ -74,13 +81,13 @@ a{
 }
 
 #hero h1:nth-child(1) span {
-    animation-delay: 1s;
+    animation-delay: .5s;
 }
 #hero h1:nth-child(2) span {
-    animation-delay: 2s;
+    animation-delay: 1.5s;
 }
 #hero h1:nth-child(3) span {
-    animation-delay: 3s;
+    animation-delay: 2.5s;
 }
 
 #hero .cta {
