@@ -33,6 +33,19 @@ p{
     justify-content: center;
 }
 
+.section-title {
+    color: black;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: .2rem;
+}
+
+.section-title span {
+    color: crimson;
+}
+
 #hero {
     background-image: url(../assets/background2.png);
     background-size: cover;
@@ -139,18 +152,7 @@ p{
 
 }
 
-#services .section-title {
-    color: black;
-    text-transform: uppercase;
-    font-size: 4rem;
-    font-weight: 300;
-    margin-bottom: 10px;
-    letter-spacing: .2rem;
-}
 
-#services .section-title span {
-    color: crimson;
-}
 /* #services .service-top p {
     font-size: 1.4rem;
     font-weight: 300;
@@ -211,6 +213,26 @@ p{
     margin-bottom: 10px;
     line-height: 1.9rem;
 }
+
+
+/* Project Section */
+#projects .projects {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#projects .projects-header h1 {
+    margin-bottom: 10px;
+}
+
+#projects .all-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* Keyframe */
 @keyframes text_reveal_box {
