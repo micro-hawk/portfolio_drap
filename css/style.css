@@ -301,6 +301,25 @@ p{
     transform: scale(1.1);
 }
 
+#about .cta {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: crimson;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px ;
+    transition: .3s ease;
+    transition-property: background-color color;
+}
+#about .cta:hover{
+    color: white;
+    background-color: crimson;
+}
+
 /* Keyframe */
 @keyframes text_reveal_box {
     50% {
