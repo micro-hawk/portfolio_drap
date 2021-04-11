@@ -4,6 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 html{
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -12,11 +14,15 @@ html{
 a{
     text-decoration: none;
 }
+
+
 img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
+
+
 p{
     color: black;
     font-size: 1.4rem;
@@ -25,6 +31,10 @@ p{
     line-height: 2.5rem;
     letter-spacing: .05rem;
 }
+
+
+
+
 .container {
     min-height: 100vh;
     width: 100%;
@@ -32,6 +42,10 @@ p{
     align-items: center;
     justify-content: center;
 }
+
+
+
+
 
 .section-title {
     color: black;
@@ -46,6 +60,11 @@ p{
     color: crimson;
 }
 
+
+
+
+
+/* ------------------------------------------------------------------------------- */
 #hero {
     background-image: url(../assets/background2.png);
     background-size: cover;
@@ -143,6 +162,11 @@ p{
 }
 
 
+/* ------------------------------------------------------------------------------- */
+
+
+
+/* ------------------------------------------------------------------------------- */
 /* Service Section */
 #services .services {
     flex-direction: column;
@@ -213,8 +237,13 @@ p{
     margin-bottom: 10px;
     line-height: 1.9rem;
 }
+/* ------------------------------------------------------------------------------- */
 
 
+
+
+
+/* ------------------------------------------------------------------------------- */
 /* Project Section */
 #projects .projects {
     flex-direction: column;
@@ -300,7 +329,13 @@ p{
 #projects .project-item:hover .project-image img{
     transform: scale(1.1);
 }
+/* ------------------------------------------------------------------------------- */
 
+
+
+
+/* ------------------------------------------------------------------------------- */
+/* ABout ME */
 #about .cta {
     display: inline-block;
     text-decoration: none;
@@ -320,6 +355,11 @@ p{
     background-color: crimson;
 }
 
+
+
+
+
+/* ------------------------------------------------------------------------------- */
 /* Keyframe */
 @keyframes text_reveal_box {
     50% {
