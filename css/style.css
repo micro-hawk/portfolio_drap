@@ -64,16 +64,19 @@ p{
 
 
 
+
 /* ------------------------------------------------------------------------------- */
 #hero {
-    background-image: url(../assets/background2.png);
+    background-image: url(../assets/hawk.png);
     background-size: cover;
     background-position :top center;
     position: relative;
     z-index: 1;
 }
 
-#hero::after{
+
+
+/* #hero::after{
     content: '';
     background-color: black;
     position: absolute;
@@ -84,7 +87,31 @@ p{
 
     opacity: .6;
     z-index: -1;
+} */
+
+
+.custom-shape-divider-bottom-1618297361 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
 }
+
+.custom-shape-divider-bottom-1618297361 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3rem);
+    height: 24.2rem;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1618297361 .shape-fill {
+    fill: #FFFFFF;
+}
+
 
 #hero .hero {
     max-width: 1200px;
@@ -141,6 +168,8 @@ p{
     padding: 10px 30px;
     color: crimson;
     background-color: transparent;
+    border-radius: 30px;
+
     border: 2px solid crimson;
     font-size: 2rem;
     text-transform: uppercase;
@@ -355,6 +384,15 @@ p{
     background-color: crimson;
 }
 
+
+
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    html {
+        font-size: 45%;
+    }
+}
 
 
 
