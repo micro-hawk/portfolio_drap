@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/red-black.png") no-repeat center;
+    background: url("../images/red-black.png") no-repeat center;
 
 
     /* background: #0F2027;  /* fallback for old browsers */
@@ -377,7 +377,7 @@ section .title::after{
 .skills-content .right .js::before{
     width: 80%;
 }
-.skills-content .right .php::before{
+.skills-content .right .cpp::before{
     width: 50%;
 }
 .skills-content .right .mysql::before{
