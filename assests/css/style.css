@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+
 }
 html{
     scroll-behavior: smooth;
@@ -75,11 +76,12 @@ html{
 } */
 
 
-/* 
+
 .music::after {
     content: "";
     text-align: center;
     position: absolute;
+    z-index: -1;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -87,7 +89,7 @@ html{
     opacity: .5;
     top: -8px;
     left: -8px;
-} */
+}
 
 @keyframes musicAnim {
     from {
@@ -293,6 +295,7 @@ section .title::after{
     color: #fff;
 }
 
+
 /* menu btn styling */
 .menu-btn{
     color: #fff;
@@ -312,7 +315,7 @@ section .title::after{
     color: #fff;
     z-index: 9999;
     font-size: 30px;
-    border-radius: 20px;
+    border-radius: 1.2rem;
     border-bottom-width: 2px;
     cursor: pointer;
     opacity: 0;
@@ -327,6 +330,9 @@ section .title::after{
 .scroll-up-btn:hover{
     filter: brightness(50%);
 }
+
+
+
 
 
 /* home section styling */
@@ -377,7 +383,7 @@ section .title::after{
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
-    border-radius: 6px;
+    border-radius: 1.2rem;
     border: 2px solid var(--primary-color);
     transition: all 0.3s ease;
 }
@@ -397,7 +403,7 @@ section .title::after{
     height: 400px;
     width: 400px;
     object-fit:cover;
-    border-radius: 6px;
+    border-radius: 1.2rem;
 }
 .about .about-content .right{
     width: 55%;
@@ -421,7 +427,7 @@ section .title::after{
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
-    border-radius: 6px;
+    border-radius: 1.2rem;
     border: 2px solid var(--primary-color);
     transition: all 0.3s ease;
 }
@@ -448,7 +454,7 @@ section .title::after{
     width: calc(33% - 20px);
     background: var(--card-color);
     text-align: center;
-    border-radius: 6px;
+    border-radius: 1.2rem;
     padding: 35px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -500,7 +506,7 @@ section .title::after{
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
-    border-radius: 6px;
+    border-radius: 1.2rem;
     border: 2px solid var(--primary-color);
     transition: all 0.3s ease;
 }
@@ -557,7 +563,7 @@ section .title::after{
 }
 .projects .carousel .card{
     background: var(--card-color);
-    border-radius: 6px;
+    border-radius: 1.2rem;
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
@@ -671,7 +677,7 @@ section .title::after{
     height: 100%;
     width: 100%;
     border: 1px solid lightgrey;
-    border-radius: 6px;
+    border-radius: 1.2rem;
     outline: none;
     padding: 0 15px;
     font-size: 17px;
@@ -698,7 +704,7 @@ section .title::after{
   outline: none;
   font-size: 18px;
   font-weight: 500;
-  border-radius: 6px;
+  border-radius: 1.2rem;
   cursor: pointer;
   flex-wrap: nowrap;
   background: var(--primary-color);
