@@ -86,6 +86,7 @@ html{
     height: 50px;
     border-radius: 50%;
     border: 8px solid var(--primary-color);
+    /* border: 8px solid grey; */
     opacity: .5;
     top: -8px;
     left: -8px;
