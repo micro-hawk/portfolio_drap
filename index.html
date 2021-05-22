@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
@@ -28,7 +28,9 @@
     <div class="music">
             <img src="./assests/images/pause.png" id=icon>
     </div>
-    <audio id="bgMusic"><source src="./assests/media/bgMusic.mp3" loop="loop" type="audio/mp3"></audio>
+    <iframe src="./assests/media/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+
+    <audio id="bgMusic"><source src="./assests/media/bgMusic.mp3" autoplay loop="loop" type="audio/mp3"></audio>
 
     <nav class="navbar">
         <div class="max-width">
